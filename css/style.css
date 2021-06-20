@@ -2,28 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', serif;
 }
 
 /* MENU */
 
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
 .nav {
     background-color: #99582A;
     text-align: center;
+    padding: 25px;
 }
 
 .navbar {
     display: inline-block;
-    padding: 25px;
+    margin-inline: 25px;
 }
 
 .navbar:hover a {
     color: #FFE6A7;
+    background-color: maroon;
+    border-color: orange;
 }
 
 .navbar-home a,
 .navbar-loja a,
 .navbar-contato a,
 .navbar-discord a {
+    font-family: sans;
     text-decoration: none;
     color: orange;
     border-color: #FFE6A7;
@@ -31,12 +43,6 @@
     border-radius: 20px;
     padding: 8px;
     background-color: #432818;
-}
-
-.navbar-discord img {
-    max-width: 50px;
-    position: relative;
-    top: 20px;
 }
 
 /* /MENU */
@@ -58,8 +64,8 @@
 .subtitulo-info-luiz {
     font-family: sans-serif;
     line-height: 30px;
-    font-size: 20px;
-    font-weight: bolder;    
+    font-size: 25px;
+    font-weight: 800;  
 }
 
 .img-info-luiz {
@@ -72,13 +78,20 @@
 
 .text-info-luiz {
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     border: 0px;
-    font-size: px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .contatos {
     margin-top: 20px;
+}
+
+.subtitulo-contatos {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .contatos img {
@@ -94,6 +107,7 @@
 
 body {
     background-color: #FFE6A7;
+    margin-top: 68px;
 }
 
 .imagem-principal {
