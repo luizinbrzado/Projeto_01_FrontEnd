@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+.nav {
+    background-color: #99582A;
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 25px;
+}
+
+.navbar:hover a {
+    color: red;
+}
+
+.navbar-home a,
+.navbar-loja a,
+.navbar-contato a,
+.navbar-discord a {
+    text-decoration: none;
+    color: orange;
+    border-color: #FFE6A7;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #432818;
+}
+
+.navbar-discord img {
+    max-width: 50px;
+    position: relative;
+    top: 20px;
+}
+
+/* /MENU */
+
+/* DIVISÃO DE INFORMAÇÕES SOBRE MIM */ 
+
+.info-luiz {
+    background-color: maroon;
+    color: orange;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: auto;
+}
+
+.subtitulo-info-luiz {
+    padding: 5px;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+
+.img-info-luiz {
+    margin-left: 20px;
+    max-width: 160px;
+    max-height: 160px;
+    border-radius: 100%;
+    float: right;
+}
+
+.text-info-luiz {
+    margin: 0px;
+    padding: 5px;
+    border: 0px;
+    font-size: 100%;
+}
+
+.text-info-luiz p {
+    text-decoration: chartreuse;
+}
+/* /DIVISÃO DE INFORMAÇÕES SOBRE MIM */ 
+
+body {
+    background-color: #FFE6A7;
+}
+
+.imagem-principal {
+    text-align: center;
+    padding: 10px;
+}
+
+.imagem-principal img{
+    width: 90%;
+    border-radius: 100px;
+}
+
+/* PROJETOS */
+
+#container-projeto {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projeto {
+    background-color: #6F1D1B;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+/* DIVISÃO DO PRIMEIRO PROJETO */
+
+.primeiro-projeto {
+    margin: 5px;
+    text-align: center;
+    color: purple;
+    max-width: 400px;
+}
+
+.primeiro-projeto h2 {
+    margin: 10px;
+    color: orange;
+}
+
+.img-primeiro-projeto {
+    margin: 2%;
+}
+
+.img-primeiro-projeto img {
+    width: 100%;
+}
+
+.text-primeiro-projeto {
+    color: #FFE6A7;
+    text-align: left;
+    padding: 10px;
+}
+
+/* /DIVISÃO DO PRIMEIRO PROJETO */
+
+/* DIVISÃO DO SEGUNDO PROJETO */
+
+.segundo-projeto {
+    margin: 5px;
+    text-align: center;
+    color: purple;
+    max-width: 400px;
+}
+
+.segundo-projeto h2 {
+    margin: 10px;
+    color: orange;
+}
+
+.img-segundo-projeto {
+    margin: 2%;
+}
+
+.img-segundo-projeto img {
+    width: 100%;
+}
+
+.text-segundo-projeto {
+    color: #FFE6A7;
+    text-align: left;
+    padding: 10px;
+}
+
+/* /DIVISÃO DO SEGUNDO PROJETO */
+
+/* DIVISÃO DO TERCEIRO PROJETO */
+
+.terceiro-projeto {
+    margin: 5px;
+    text-align: center;
+    color: purple;
+    max-width: 400px;
+}
+
+.terceiro-projeto h2 {
+    margin: 10px;
+    color: orange;
+}
+
+.img-terceiro-projeto {
+    margin: 2%;
+}
+
+.img-terceiro-projeto img {
+    width: 100%;
+}
+
+.text-terceiro-projeto {
+    color: #FFE6A7;
+    text-align: left;
+    padding: 10px;
+}
+
+/* /DIVISÃO DO TERCEIRO PROJETO */
+
+/* /PROJETOS */
+
+/* WHATSAPP */
+
+#contato-whats {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#contato-whats img {
+    width: 60px;
+}
+
+/* /WHATSAPP */
+
+/* FOOTER */
+
+#container-footer {
+    background-color: #6F1D1B;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+/* /FOOTER */
